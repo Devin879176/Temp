@@ -1,4 +1,13 @@
-﻿
+
+/*
+函数功能说明：
+getFiles(string path, vector<pair<string, int> >& files)
+path：文件夹路径 例如：char folder[] = "G:\\Paper\\FaceRecognition\\Face verification code\\lfw_funneled123";
+files:存储获取到的文件名 例如：vector<pair<string, int> > files; 前一项string表示文件名，后一项int 为序号 
+调用方法：getFiles(folder, files);
+*/
+
+
 void getFiles(string path, vector<pair<string, int> >& files) {
 	//文件句柄
 	long   hFile = 0;
